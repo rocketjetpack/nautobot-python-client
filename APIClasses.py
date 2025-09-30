@@ -14,7 +14,6 @@ class NautobotBase:
     token = f"Token {os.getenv('NAUTOBOT_API_TOKEN')}" or "Token YourSecureTokenHere"
     headers = {
         "Authorization": token,
-#        "Authorization": "Token 971dd4d8b01e8137ca9d39b48687492af4be60c6",
         "Content-Type": "application/json",
         "Accept": "application/json",
     }
